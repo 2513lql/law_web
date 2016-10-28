@@ -1,0 +1,352 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lantinghei SC", "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 1em;
+}
+
+ul{
+    list-style: none;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.clear-float:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.clear-float {
+    zoom: 1;
+}
+
+/*顶部静止状态栏*/
+.static-top-bar{
+    position: static;
+    width: inherit;
+    height: 50px;
+    margin-top: 0px;
+    background-color: #E0E0E0;
+}
+
+.static-top-bar-container{
+    width: 1000px;
+    height: inherit;
+    position: relative;
+    margin: 0 auto;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.static-top-bar-container .static-wrapper{
+    position: relative;
+    top: 50%;
+    margin-top: -13px;
+}
+
+.static-top-bar-container .location-wrapper{
+    float: left;
+    width: 200px;
+}
+
+.static-top-bar-container .location-wrapper span{
+    color: #CC3300;
+    margin-left: 5px;
+
+}
+#location_select_btn span,#version_select_btn span ,#nav_select_btn span{
+    padding: 3px 3px;
+    color: #707070;
+}
+
+/*顶部静止栏登陆注册*/
+.static-top-bar-container .login-register-wrapper{
+    float: right;
+    width: 200px;
+}
+.static-top-bar-container .login-register-wrapper a{
+    padding: 0 5px;
+}
+
+/*顶部静止栏导航*/
+.static-top-bar-container .nav-wrapper{
+    float: left;
+    width: 320px;
+}
+.static-top-bar-container .nav-wrapper li{
+    float: left;
+}
+
+/*导读img wrapper*/
+.introduction-img-wrapper{
+    width: 1000px;
+    height: 350px;
+    margin: 0px auto;
+}
+.introduction-img-wrapper img{
+    width: 1000px;
+    height: 350px;
+}
+
+.second-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.second-container .item .title{
+    height: 80px;
+}
+
+.second-container .item .title img{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 23px;
+}
+
+.second-container .item .title h2{
+    float: left;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+/*热点速递*/
+.second-container .item .hot-point-content{
+    margin-top: 30px;
+    background-color: #E0E0E0;
+    width: 1000px;
+    height: 290px;
+    overflow: hidden;
+}
+
+.second-container .item .hot-point-content img{
+    display: block;
+    float: left;
+}
+.second-container .item .hot-point-content div{
+    margin-top: 20px;
+    float: left;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.second-container .item .hot-point-content div h2{
+    padding-bottom: 10px;
+}
+
+.second-container .item .hot-point-content div p{
+    font-size: 17px;
+    padding: 7px 0;
+}
+
+.second-container .item .hot-point-content div a{
+    display: block;
+    width: 70px;
+    background-color: transparent;
+    padding: 0.4em 1em;
+    text-align: center;
+    color: #3366FF;
+    border: 1px solid #3366FF;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius:12px;
+    float: right;
+}
+
+/*知识点*/
+.knowledge-point-wrapper{
+}
+
+.knowledge-point-wrapper ul{
+    width: 550px;
+    float: left;
+}
+
+.knowledge-point-wrapper ul li{
+    border-bottom: 1px dashed #C8C8C8;
+    padding: 30px 0;
+}
+
+
+.knowledge-point-wrapper{
+
+}
+
+.knowledge-point-wrapper img{
+    float: right;
+    display: block;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/*小贴士*/
+.little-tips-wrapper{
+
+}
+
+
+
+
+.little-tips-wrapper ul li{
+    width: 300px;
+    height: 140px;
+    background-color: #66afe9;
+    float: left;
+    margin-left: 50px;
+    display: block;
+    overflow: hidden;
+}
+.little-tips-wrapper ul li:first-child{
+    margin-left: 0px;
+}
+
+.little-tips-wrapper .tip-title{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.little-tips-wrapper .tip-content{
+    color: #FFFFFF;
+    padding: 0.5em 1em;
+}
+
+/*律师问答*/
+.question-answer-container{
+    width: 600px;
+}
+
+.question-answer-container ul{
+    float: left;
+}
+
+
+.question-answer-wrapper{
+    margin-bottom: 40px;
+}
+
+.question-answer-wrapper .question-wrapper,.question-answer-wrapper .answer-wrapper{
+    margin-top: 20px;
+}
+
+.question-answer-wrapper .question{
+    background-color: #CC6600;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding: 0.3em 0;
+    width: 40px;
+    border-radius: 4px;
+    /*border: 1px solid #CC6600;*/
+    display: inline-block;
+    text-align: center;
+}
+
+.question-answer-wrapper .answer{
+    background-color: #3366FF;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding: 0.3em 0;
+    width: 40px;
+    border-radius: 4px;
+    border: 1px solid #3366FF;
+    text-align: center;
+    float: left;
+}
+
+.question-answer-wrapper .lawyer-question{
+    color: #CC3300;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.question-answer-wrapper .lawyer-answer{
+    margin-left: 20px;
+    float: left;
+    width: 85%;
+    line-height: 1.5em;
+    /*border: 1px solid red;*/
+}
+
+.lawyer-answer-img{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/*法律法规*/
+.law-wrapper{
+
+}
+
+
+.law-wrapper ul li{
+    width: 300px;
+    height: 170px;
+    float: left;
+    margin-left: 50px;
+    display: block;
+    overflow: visible;
+}
+.law-wrapper ul li:first-child{
+    margin-left: 0px;
+}
+
+.law-title{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #0033CC;
+    padding: 0.5em;
+}
+.law-content{
+    color: #303030;
+    padding: 0.5em 1em;
+    border-bottom: 2px dashed #0033CC;
+    border-left: 2px dashed #0033CC;
+    border-right: 2px dashed #0033CC;
+}
+
+
+
+
+/*橘红色字*/
+.orange-font-color{
+    color: #CC3300;
+}
+
+/*段落行间距*/
+.paragraph-line-height{
+    line-height: 1.5em;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.margin-top-space-30{
+    margin-top: 30px;
+}
+
+.margin-bottom-space-30{
+    margin-bottom: 30px;
+}
+
+.divide-line{
+    border-bottom: 1px solid #C8C8C8;
+}
+
+
+h2 {
+    font-weight: 500;
+    color: #303030;
+    font-size: 25px;
+}

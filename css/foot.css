@@ -1,0 +1,87 @@
+
+a{
+    text-decoration: none;
+}
+.foot-bar{
+    background-color: #E0E0E0;
+    position: relative;
+    height: 281px;
+}
+
+.foot-container{
+    height: 281px;
+    width: 1000px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.foot-container .top-part{
+    height: 140px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.foot-container .top-part .link-item-wrapper{
+    display: inline-block;
+    margin-top: 35px;
+    width: 230px;
+    margin-left: 15px;
+    position: relative;
+    height: 70px;
+    overflow: visible;
+}
+
+
+.foot-container .top-part .link-item-wrapper .link-item-text{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: -25px;
+}
+
+
+.foot-container .bottom-part .phone-number-wrapper{
+    width: 25%;
+    margin-top: 27px;
+    overflow: visible;
+    float: left;
+    position: relative;
+}
+.foot-container .bottom-part .phone-number-wrapper p{
+    color: #CC3300;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.foot-container .bottom-part .website-explain-wrapper{
+    margin-top: 27px;
+    width: 62%;
+    position: relative;
+    float: right;
+}
+
+.foot-container .bottom-part .website-explain-wrapper ul{
+    list-style: none;
+    float: right;
+}
+
+.foot-container .bottom-part .website-explain-wrapper ul li{
+    float: left;
+}
+
+.foot-container .bottom-part .website-explain-wrapper p{
+    padding-top: 30px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
